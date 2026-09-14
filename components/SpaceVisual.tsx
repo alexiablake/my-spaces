@@ -21,7 +21,7 @@ export default function SpaceVisual({
   children,
 }: SpaceVisualProps) {
   return (
-    <motion.div className="relative overflow-hidden pb-[100px]">
+    <motion.div className="relative overflow-hidden [@media(max-height:900px)]:p-0 pb-[100px]">
       <motion.div
         layout
         layoutId={`space-${space.id}`}

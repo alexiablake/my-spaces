@@ -32,7 +32,7 @@ export default function SpaceCard({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2, delay: 0.05 }}
-            className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-4 sm:p-5"
+            className="absolute inset-x-0 bottom-0 [@media(max-height:900px)]:bottom-[30px] flex items-end justify-between gap-3 p-4 sm:p-5"
           >
             <div>
               <p className="text-sm font-medium uppercase mb-4 tracking-wide text-white">
