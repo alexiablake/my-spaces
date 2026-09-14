@@ -2,8 +2,8 @@ To run the project, first
 <b>npm install</b>
 
 Dev server:
-npm run dev
+<b>npm run dev</b>
 
 Build and run:
-npm run build
-npm run start
+<b>npm run build</b>
+<b>npm run start</b>
